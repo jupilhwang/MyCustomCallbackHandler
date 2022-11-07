@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'me.jhwang'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation('org.slf4j:slf4j-api:1.7.36')
+    implementation("org.apache.kafka:kafka_2.13:3.3.1")
+}
