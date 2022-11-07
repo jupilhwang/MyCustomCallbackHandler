@@ -46,6 +46,9 @@ public class MyCustomCallbackHandler implements AuthenticateCallbackHandler {
           password = String.valueOf(plainCallback.password());
           log.info("\t\t---------------"+ password);
 
+
+          // TODO: validate the username and password (ex. JDBC call or RESTFul API call)
+
           if("client".equals(username))
             plainCallback.authenticated(true);
           else
