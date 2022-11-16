@@ -1,8 +1,0 @@
-*.log
-*.bak
-
-build/
-.gradle/
-.git/
-.idea/
-.gitignore
