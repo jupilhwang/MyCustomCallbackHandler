@@ -73,13 +73,13 @@ public class MyCustomCallbackHandler implements AuthenticateCallbackHandler {
 //                    Form.form().add("username", "abc").add("password", "password").build()
 //                ).execute().returnContent();
 
-          HttpRequest httpRequest = HttpRequest.newBuilder()
-              .uri(URI.create("http://www.google.com"))
-              .GET()
-              .build();
+//           HttpRequest httpRequest = HttpRequest.newBuilder()
+//               .uri(URI.create("http://www.google.com"))
+//               .GET()
+//               .build();
 
-          HttpResponse<?> httpResponse = httpClient.send(httpRequest, HttpResponse.BodyHandlers.ofString());
-          log.info((String) httpResponse.body());
+//           HttpResponse<?> httpResponse = httpClient.send(httpRequest, HttpResponse.BodyHandlers.ofString());
+//           log.info((String) httpResponse.body());
 
           // TOOD
 
